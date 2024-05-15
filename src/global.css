@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-nunito;
+  @apply text-base;
+  @apply leading-default;
+  @apply font-normal;
+
+  @apply text-base-text;
+  @apply bg-base-background;
+
+  text-rendering: optimizeLegibility;
+  @apply antialiased;
+  @apply scroll-smooth
+}
+
+:focus {
+  outline: none;
+}
